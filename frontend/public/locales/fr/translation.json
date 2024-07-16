@@ -1,0 +1,15 @@
+{
+	"homePage": {
+		"title": "Accueil",
+		"welcome": "Bienvenue dans notre application"
+	},
+	"menu" : {
+		"titleLink": "french - IPPM",
+		"homeLink" :  "Accueil",
+		"page2Link" :  "Deuxième Page"
+	  },
+	"page2": { 
+    "title": "Page 2", 
+    "welcome": "Bienvenue sur la page 2" 
+  }
+}
