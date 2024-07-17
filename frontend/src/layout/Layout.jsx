@@ -16,7 +16,9 @@ export default function Layout() {
 
 	return (
 		<>
-			<GcdsHeader skipToHref="#main-content" padding="150px" height="auto">
+			<GcdsHeader skipToHref="#main-content" padding="150px" height="auto"
+			lang={i18n.language}
+			>
 				<div slot="toggle">
 					{i18n.language === "en" ? <button className="astext" onClick={() => changeLanguage("fr")}>French</button> : <button className="astext" onClick={() => changeLanguage("en")}>English</button>}
 				</div>
@@ -31,11 +33,13 @@ export default function Layout() {
 					</GcdsContainer>
 				</nav>
 			</GcdsHeader>
+			
 			<GcdsContainer size="xl" centered color="black" style={{ flexGrow: "1" }} padding="400" id="main-content">
 				<Breadcrumb />
 				<Outlet />
 			</GcdsContainer>
-			<GcdsFooter />
+			
+			<GcdsFooter lang={i18n.language}/>
 		</>
 	)
 }
