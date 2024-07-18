@@ -65,9 +65,9 @@ steps:
       - '-c'
       - |
         if [[ "$BRANCH_NAME" == "main" ]]; then
-          existing_mapping=$(gcloud run domain-mappings list --filter="domain:ippm-pigp.alpha.phac-aspc.gc.ca" --region northamerica-northeast1 --format="value(domain)")
+          existing_mapping=$(gcloud beta run domain-mappings list --filter="domain:ippm-pigp.alpha.phac-aspc.gc.ca" --region northamerica-northeast1 --format="value(domain)")
           if [[ -z "$existing_mapping" ]]; then
-            gcloud run domain-mappings create --service ippm-pigp-service --domain ippm-pigp.alpha.phac-aspc.gc.ca --region northamerica-northeast1
+            gcloud beta run domain-mappings create --service=ippm-pigp-service --domain=ippm-pigp.alpha.phac-aspc.gc.ca --region=northamerica-northeast1
           else
             echo "Domain mapping already exists."
           fi
