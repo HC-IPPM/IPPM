@@ -52,7 +52,38 @@ steps:
             --platform managed \
             --region northamerica-northeast1 \
             --allow-unauthenticated \
-            --port 3000
+            --port 3000 \
+            --quiet
+        else
+          exit 0
+        fi
+
+  # Step 5: Map Custom Domain if the branch is 'main'
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: map-domain
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        if [[ "$BRANCH_NAME" == "main" ]]; then
+          if gcloud run domain-mappings describe --domain ippm-pigp.alpha.phac-aspc.gc.ca --region northamerica-northeast1 > /dev/null 2>&1; then
+            echo "Domain mapping already exists."
+          else
+            gcloud run domain-mappings create --service ippm-pigp-service --domain ippm-pigp.alpha.phac-aspc.gc.ca --region northamerica-northeast1 --quiet
+          fi
+        else
+          exit 0
+        fi
+
+  # Step 6: Enable Managed SSL if the branch is 'main'
+  - name: 'gcr.io/cloud-builders/gcloud'
+    id: enable-ssl
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        if [[ "$BRANCH_NAME" == "main" ]]; then
+          gcloud beta run domain-mappings update --domain=ippm-pigp.alpha.phac-aspc.gc.ca --certificate-management=automatic --region=northamerica-northeast1 --quiet
         else
           exit 0
         fi
