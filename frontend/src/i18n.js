@@ -14,7 +14,7 @@ i18n
     react: {
       useSuspense: false
     },
-    debug: true // Enable debug mode to see more detailed logs
+    debug: false // Enable debug mode to see more detailed logs
   });
 
 export default i18n;
