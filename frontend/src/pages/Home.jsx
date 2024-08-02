@@ -126,14 +126,14 @@ export default function HomePage() {
 				role="main" // Landmark role for main content
 				aria-labelledby="main-title" // Associate container with a heading
 			>
-				{/* End of map and welcome section */}				
+				{/* End of map and welcome section */}
 				<h2>Empower Your Business with Custom Cloud Applications</h2>
 				<p>
 					Our accomplished cloud development team excels in crafting bespoke applications meticulously designed to align with your unique business requirements. Beginning with a
 					comprehensive initial design consultation and continuing through to the final deployment, our approach is holistic and detail-oriented. We oversee every facet of the
 					development process to ensure that your application is not only fortified with robust security measures but also engineered for scalability and tuned for optimal
 					performance in the cloud environment.
-				</p>				
+				</p>
 				<section aria-labelledby="section1-title">
 					{/* Heading and description for the main content */}
 					{/* <h2 id="section1-title" style={{ textAlign: "justify", fontWeight: "normal", paddingTop: "15px", paddingBottom: "15px" }}>
@@ -146,6 +146,17 @@ export default function HomePage() {
 				</section>
 				<section>
 					<ServiceCatOverview />
+				</section>
+
+				<section>
+					<h2> Mandate, Mission, and Vision </h2>
+					<p>
+						Our mandate is to innovate and enhance Canadian public health and healthcare operations built on the foundation of a secure, transparent, and advanced cloud platform.
+						We support current projects and facilitate future workloads through proven technologies and design, and strategic collaborations. We host and develop solutions that
+						prioritize a collaborative and transparent approach. Our team aligns closely with yours, ensuring the final product meets your needs throughout the entire lifespan of
+						the project, program or solution. Contact us today to discover how our cloud development team can transform your vision into reality, delivering powerful, secure, and
+						scalable solutions tailored to your needs.
+					</p>
 				</section>
 			</GcdsContainer>
 		</>
