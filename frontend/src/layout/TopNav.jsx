@@ -52,6 +52,14 @@ export default function TopNav() {
 		setMenuOpen(false)
 	}
 
+	// Function to handle external link clicks
+	const handleExternalLinkClick = (event, url) => {
+		event.preventDefault()
+		if (window.confirm("You are about to leave this site. Do you want to continue?")) {
+			window.location.href = url
+		}
+	}
+
 	return (
 		<nav>
 			<div className="body">
@@ -83,12 +91,7 @@ export default function TopNav() {
 				<ul className={menuOpen ? "open" : ""} ref={menuRef} onBlur={handleFocusOut} tabIndex="-1">
 					<li>
 						<NavLink to="/about-us" tabIndex="0" className="active-exclude" onClick={handleCloseMenu}>
-						About Us
-						</NavLink>
-					</li>
-					<li>
-						<NavLink to="/our-work" onClick={handleCloseMenu}>
-							Our Work
+							About Us
 						</NavLink>
 					</li>
 					<li>
@@ -97,10 +100,11 @@ export default function TopNav() {
 						</NavLink>
 					</li>
 					<li>
-						<NavLink to="/resources" onClick={handleCloseMenu}>
+						<a href="https://022gc.sharepoint.com/sites/HC-DTB-DPDDMD-DPMIPPM" target="_blank" rel="noopener noreferrer" onClick={(e) => handleExternalLinkClick(e, "https://022gc.sharepoint.com/sites/HC-DTB-DPDDMD-DPMIPPM")}>
 							Resources
-						</NavLink>
-					</li><li>
+						</a>
+					</li>
+					<li>
 						<NavLink to="/contact-us" onClick={handleCloseMenu}>
 							Contact Us
 						</NavLink>

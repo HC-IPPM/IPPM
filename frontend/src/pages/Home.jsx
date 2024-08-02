@@ -147,15 +147,19 @@ export default function HomePage() {
 				<section>
 					<ServiceCatOverview />
 				</section>
-
 				<section>
 					<h2> Mandate, Mission, and Vision </h2>
 					<p>
 						Our mandate is to innovate and enhance Canadian public health and healthcare operations built on the foundation of a secure, transparent, and advanced cloud platform.
-						We support current projects and facilitate future workloads through proven technologies and design, and strategic collaborations. We host and develop solutions that
-						prioritize a collaborative and transparent approach. Our team aligns closely with yours, ensuring the final product meets your needs throughout the entire lifespan of
-						the project, program or solution. Contact us today to discover how our cloud development team can transform your vision into reality, delivering powerful, secure, and
-						scalable solutions tailored to your needs.
+						We support current projects and facilitate future workloads through proven technologies and design, and strategic collaborations.
+					</p>
+					<p>
+						We host and develop solutions that prioritize a collaborative and transparent approach. Our team aligns closely with yours, ensuring the final product meets your needs
+						throughout the entire lifespan of the project, program or solution.
+					</p>
+					<p>
+						Contact us today to discover how our cloud development team can transform your vision into reality, delivering powerful, secure, and scalable solutions tailored to your
+						needs.
 					</p>
 				</section>
 			</GcdsContainer>

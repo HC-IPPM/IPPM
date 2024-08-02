@@ -5,6 +5,8 @@ import Layout from "./layout/Layout"
 import HomePage from "./pages/Home"
 import Page2 from "./pages/Page2"
 import AboutUs from "./pages/AboutUs"
+import Services from "./pages/services/Services"
+import ContactUs from "./pages/ContactUs"
 
 export default function App() {
 	return (
@@ -13,10 +15,8 @@ export default function App() {
 				<Route index element={<HomePage />} />
 				<Route path="home" element={<HomePage />} />
 				<Route path="/about-us" element={<AboutUs />} />
-				<Route path="/our-work" element={<Page2 />} />
-				<Route path="/services" element={<Page2 />} />
-				<Route path="/resources" element={<Page2 />} />
-				<Route path="/contact-us" element={<Page2 />} />
+				<Route path="/services" element={<Services />} />
+				<Route path="/contact-us" element={<ContactUs />} />
 			</Route>
 		</Routes>
 	)
