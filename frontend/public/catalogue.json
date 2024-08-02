@@ -1,0 +1,66 @@
+[
+	{
+		"id": 1,
+		"image": "https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"en": {
+			"title": "Application Development  ",
+			"imageAlt": "Application Development ",
+			"subtitle": "We develop custom applications in collaboration with your subject matter experts - tailoring our involvement to your needs.",
+			"paragraph": "Whether you just need a platform to do your work, or you need end-to-end support to develop a solution, we can help"
+		},
+		"fr": {
+			"title": "Application Development  ",
+			"imageAlt": "Application Development ",
+			"subtitle": "We develop custom applications in collaboration with your subject matter experts - tailoring our involvement to your needs.",
+			"paragraph": "Whether you just need a platform to do your work, or you need end-to-end support to develop a solution, we can help"
+		}
+	},
+	{
+		"id": 2,
+		"image": "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"en": {
+			"title": "Application Deployment/Hosting ",
+			"imageAlt": "Application Deployment/Hosting",
+			"subtitle": "We can host your applications, services and developed systems in a secure, stable",
+			"paragraph": ""
+		},
+		"fr": {
+			"title": "Application Deployment/Hosting ",
+			"imageAlt": "Application Deployment/Hosting",
+			"subtitle": "We can host your applications, services and developed systems in a secure, stable",
+			"paragraph": ""
+		}
+	},
+	{
+		"id": 3,
+		"image": "https://images.pexels.com/photos/34950/pexels-photo.jpg",
+		"en": {
+			"title": "Infrastructure (Platform as a Service) ",
+			"imageAlt": "Infrastructure (Platform as a Service)",
+			"subtitle": "We provide easily scaled and automation enabled, cost effective infrastructure supporting development, data science, experimentation, storage, and data analytics",
+			"paragraph": ""
+		},
+		"fr": {
+			"title": "Infrastructure (Platform as a Service) ",
+			"imageAlt": "Infrastructure (Platform as a Service)",
+			"subtitle": "We provide easily scaled and automation enabled, cost effective infrastructure supporting development, data science, experimentation, storage, and data analytics",
+			"paragraph": ""
+		}
+	},
+	{
+		"id": 4,
+		"image": "https://images.pexels.com/photos/4449800/pexels-photo-4449800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"en": {
+			"title": "Services (Software as a Service) and other solutions ",
+			"imageAlt": "Services (Software as a Service) and other solutions",
+			"subtitle": "We provide a vast array of services and solutions including:",
+			"paragraph": "Data analysis environments, AI/ML platforms, Geospatial/geocoding, SDMX, Secure data intake (Secure inputs), Self-serve DNS"
+		},
+		"fr": {
+			"title": "Services (Software as a Service) and other solutions ",
+			"imageAlt": "Services (Software as a Service) and other solutions",
+			"subtitle": "We provide a vast array of services and solutions including:",
+			"paragraph": "Data analysis environments, AI/ML platforms, Geospatial/geocoding, SDMX, Secure data intake (Secure inputs), Self-serve DNS"
+		}
+	}
+]

@@ -1,0 +1,83 @@
+[
+	{
+	  "id": 1,
+	  "image": "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg",
+	  "en": {
+		"title": "Application Development ",
+		"imageAlt": "A scenic mountain view",
+		"subtitle": "A breathtaking view",
+		"paragraph": "Mountains provide some of the most beautiful landscapes on Earth"
+	  },
+	  "fr": {
+		"title": "Belle Montagne",
+		"imageAlt": "Une vue montagneuse pittoresque",
+		"subtitle": "Une vue à couper le souffle",
+		"paragraph": "Les montagnes offrent certains des paysages les plus beaux de la Terre"
+	  }
+	},
+	{
+	  "id": 2,
+	  "image": "https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
+	  "en": {
+		"title": "Adorable Cat",
+		"imageAlt": "A cute cat looking at the camera",
+		"subtitle": "Pets are lovely",
+		"paragraph": "Cats are known for their independent yet affectionate nature"
+	  },
+	  "fr": {
+		"title": "Chat Adorable",
+		"imageAlt": "Un chat mignon regardant la caméra",
+		"subtitle": "Les animaux de compagnie sont adorables",
+		"paragraph": "Les chats sont connus pour leur nature indépendante mais affectueuse"
+	  }
+	},
+	{
+	  "id": 3,
+	  "image": "https://images.pexels.com/photos/34950/pexels-photo.jpg",
+	  "en": {
+		"title": "Sunset at the Beach",
+		"imageAlt": "A beautiful sunset over the ocean",
+		"subtitle": "Nature's beauty",
+		"paragraph": "Sunsets over the ocean create a tranquil and picturesque scene"
+	  },
+	  "fr": {
+		"title": "Coucher de Soleil à la Plage",
+		"imageAlt": "Un beau coucher de soleil sur l'océan",
+		"subtitle": "La beauté de la nature",
+		"paragraph": "Les couchers de soleil sur l'océan créent une scène tranquille et pittoresque"
+	  }
+	},
+	{
+	  "id": 4,
+	  "image": "https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg",
+	  "en": {
+		"title": "Cityscape at Night",
+		"imageAlt": "A city illuminated at night",
+		"subtitle": "Urban beauty",
+		"paragraph": "Cities at night are a blend of lights and architecture"
+	  },
+	  "fr": {
+		"title": "Paysage Urbain de Nuit",
+		"imageAlt": "Une ville illuminée la nuit",
+		"subtitle": "Beauté urbaine",
+		"paragraph": "Les villes la nuit sont un mélange de lumières et d'architecture"
+	  }
+	},
+	{
+	  "id": 5,
+	  "image": "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg",
+	  "en": {
+		"title": "Colorful Hot Air Balloons",
+		"imageAlt": "Hot air balloons in the sky",
+		"subtitle": "A sky full of colors",
+		"paragraph": "Hot air balloons provide a unique and colorful view of the world."
+	  },
+	  "fr": {
+		"title": "Montgolfières Colorées",
+		"imageAlt": "Montgolfières dans le ciel",
+		"subtitle": "Un ciel plein de couleurs",
+		"paragraph": "Les montgolfières offrent une vue unique et colorée du monde."
+	  }
+	}
+  ]
+  
