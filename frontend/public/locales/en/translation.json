@@ -1,10 +1,10 @@
 {
 	"homePage": {
-		"title": "IPPM - french",
+		"title": "IPPM - PIGP",
 		"welcome": "Welcome to our application"
 	},
 	"menu": {
-		"titleLink": "IPPM - french",
+		"titleLink": "IPPM - PIGP",
 		"homeLink": "Home",
 		"page2Link": "Second Page"
 	},

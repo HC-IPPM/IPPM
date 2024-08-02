@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from "react"
 import "./TopNav.css"
 import { Link, NavLink } from "react-router-dom"
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next"
 
 export default function TopNav() {
 	const [menuOpen, setMenuOpen] = useState(false) // State for toggling the main menu
 	const menuRef = useRef(null) // Ref for the main menu container
-	const { t } = useTranslation();
+	const { t } = useTranslation()
 
 	// Effect to handle body class when menu is open
 	useEffect(() => {
@@ -57,7 +57,7 @@ export default function TopNav() {
 			<div className="body">
 				{/* Main Logo/Title */}
 				<Link to="/" className="title">
-				{t("menu.titleLink")}
+					{t("menu.titleLink")}
 				</Link>
 
 				{/* Menu Toggle Button */}
@@ -82,15 +82,27 @@ export default function TopNav() {
 				{/* Main Menu Items */}
 				<ul className={menuOpen ? "open" : ""} ref={menuRef} onBlur={handleFocusOut} tabIndex="-1">
 					<li>
-						<NavLink to="/home" tabIndex="0" className="active-exclude" onClick={handleCloseMenu}>
-						{t("menu.homeLink")}
-
+						<NavLink to="/about-us" tabIndex="0" className="active-exclude" onClick={handleCloseMenu}>
+						About Us
 						</NavLink>
 					</li>
 					<li>
-						<NavLink to="/page2" onClick={handleCloseMenu}>
-						{t("menu.page2Link")}
-
+						<NavLink to="/our-work" onClick={handleCloseMenu}>
+							Our Work
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="/services" onClick={handleCloseMenu}>
+							Our Services
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="/resources" onClick={handleCloseMenu}>
+							Resources
+						</NavLink>
+					</li><li>
+						<NavLink to="/contact-us" onClick={handleCloseMenu}>
+							Contact Us
 						</NavLink>
 					</li>
 				</ul>
