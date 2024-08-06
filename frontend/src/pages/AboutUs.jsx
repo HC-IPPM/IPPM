@@ -11,6 +11,8 @@ export default function AboutUs() {
 		th: {
 			border: "1px solid #dddddd",
 			textAlign: "left",
+			backgroundColor: "#26374a",
+			color: "#f1f2f3",
 			padding: "8px",
 		},
 		td: {
@@ -27,10 +29,10 @@ export default function AboutUs() {
 	}
 
 	const teamMembers = [
-		{ name: "Seb", title: "Director", email: "Seb" },
-		{ name: "Mike", title: "Manager of XX team", email: "Mike" },
-		{ name: "Andrew", title: "Manager of XX team", email: "Andrew" },
-		{ name: "Alanna", title: "Admin", email: "Alanna" },
+		{ name: "Sebastien Durand", title: "Director", email: "sebastien.durand2@hc-sc.gc.ca" },
+		{ name: "Micheal Williamson", title: "Manager of Cloud Service and Interoperability (CSI)", email: "michael.williamson@hc-sc.gc.ca" },
+		{ name: "Andrew Nice", title: "Manager of Epi Science Solutions (ESS)", email: "andrew.nice@hc-sc.gc.ca" },
+		{ name: "Contact Us", title: "Contact Us", email: "dmia-de-corr-corr_gdia_ad@phac-aspc.gc.ca" },
 	]
 
 	return (
