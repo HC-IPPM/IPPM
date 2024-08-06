@@ -60,11 +60,13 @@ export default function AboutUs() {
 					</tbody>
 				</table>
 			</section>
-			<section>
+			{/*
+		<section>
 				<a href="/orgChart.png" target="_blank" rel="noopener noreferrer">
-					<img src="/orgChart.png" alt="org chart" style={styles.img} />
+					 <img src="/orgChart.png" alt="org chart" style={styles.img} />
 				</a>
-			</section>
+			</section> 
+			*/}
 		</div>
 	)
 }
